@@ -22,7 +22,7 @@ git clone https://github.com/nirmata/demo-policies.git
 
 
 ```console
-cd kyverno-policies
+cd demo-policies
 kubectl apply -f multitenancy
 kubectl apply -f eks-best-practices
 kubectl apply -f pci-dss
