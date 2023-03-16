@@ -25,7 +25,14 @@ git clone https://github.com/nirmata/demo-policies.git
 cd demo-policies
 kubectl apply -f multitenancy
 kubectl apply -f eks-best-practices
-kubectl apply -f pci-dss
+kubectl apply -f best-practices
+kubectl apply -f cost-management
+kubectl apply -f finops
+kubectl apply -f pod-security/baseline
+kubectl apply -f pod-security/restricted
+kubectl apply -f rbac-best-practices
+kubectl apply -f workload-security
+kubectl apply -f supply-chain 
 ```
 
 Once policies are installed, you can check if they are ready using the command:
