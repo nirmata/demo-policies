@@ -14,20 +14,12 @@ Sign-up for a free trial today at [https://try.nirmata.io/](https://try.nirmata.
 Clone the kyverno-policies repository.
 
 ```console
-git clone https://github.com/nirmata/kyverno-policies.git
+git clone https://github.com/nirmata/demo-policies.git
 ```
-@@ -16,24 +16,17 @@ Clone the kyverno-policies repository.
-```console
-git clone https://github.com/nirmata/kyverno-policies.git
-```
+
 
 **Install Policies:**
 
-To install Pod Security Standard policies, refer to [pod-security/README.md](pod-security/README.md)
-
-To install Kubernetes Best Practices policies, refer to [best-practices/README.md](best-practices/README.md)
-
-To install Multitenancy and EKS Best Practices
 
 ```console
 cd kyverno-policies
