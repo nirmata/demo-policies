@@ -1,0 +1,13 @@
+apiVersion: kyverno.io/v2alpha1
+kind: ClusterCleanupPolicy
+metadata:
+  name: cleandeploy
+spec:
+  match:
+    any:
+    - resources:
+        kinds:
+          - Deployment
+        annotations:
+          sre.corp.org/troubleshooting-needed: "true"
+  schedule: "*/5 * * * *"
