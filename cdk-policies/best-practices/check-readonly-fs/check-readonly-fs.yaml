@@ -25,4 +25,4 @@ spec:
             ~.(values(Resources)[?Type == 'AWS::ECS::TaskDefinition']):
                 Properties:
                     ~.(ContainerDefinitions[]):
-                        ReadOnlyRootFileSystem: true
+                        ReadonlyRootFilesystem: true
